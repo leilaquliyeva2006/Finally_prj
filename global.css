@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 1fr 110px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+}
+
+
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container,
+.contain {
+    max-width: 1170px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+
+.engage_now,
+.logo:hover,
+.sub_menu li,
+.btn,
+.search:hover {
+    cursor: pointer;
+}
+
+
+.wrapper,
+.wrapper1,
+.sec2,
+.sec3,
+.footer,
+form,
+.global_menu {
+    display: flex;
+}

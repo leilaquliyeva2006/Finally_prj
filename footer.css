@@ -1,0 +1,24 @@
+.footer {
+    text-align: center;
+    align-items: center;
+    grid-column: span 12;
+}
+
+
+.footer_p {
+
+    margin-top: 10px;
+}
+
+.a a {
+    color: #337ab7;
+}
+
+.a a:hover {
+    text-decoration: underline;
+}
+
+.a,
+.footer_p {
+    color: #959595;
+}
